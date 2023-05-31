@@ -1,0 +1,6 @@
+output.txt
+.env
+update_transactions/*.csv
+.DS_Store
+
+node_modules/

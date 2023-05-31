@@ -1,0 +1,37 @@
+{
+  "name": "bea-scripts",
+  "description": "+ Firstly run  `npm install`",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinidatamr/bps-index-documents.git"
+  },
+  "keywords": [
+    "bea",
+    "scripts",
+    "sync",
+    "update"
+  ],
+  "author": "leminou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infinidatamr/bps-index-documents/issues"
+  },
+  "homepage": "https://github.com/infinidatamr/bps-index-documents#readme",
+  "dependencies": {
+    "@elastic/app-search-node": "^7.16.0",
+    "aws-sdk": "^2.1027.0",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "dynamodb-backup-restore": "^0.5.0",
+    "file-saver": "^2.0.5",
+    "fs-extra": "^10.0.0",
+    "json2csv": "^5.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "papaparse": "^5.3.2",
+    "random": "^3.0.6"
+  }
+}
